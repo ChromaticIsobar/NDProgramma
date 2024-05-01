@@ -1,0 +1,41 @@
+\ProvidesPackage{programma}[2024/04/30]
+
+% ACM-like fonts
+% https://tex.stackexchange.com/a/540068
+\PassOptionsToPackage{T1}{fontenc}
+\PassOptionsToPackage{tt=false, type1=true}{libertine}
+\PassOptionsToPackage{varqu}{zi4}
+\PassOptionsToPackage{libertine}{newtxmath}
+
+\RequirePackage{fontenc}
+\RequirePackage{libertine}
+\RequirePackage{zi4}
+\RequirePackage{newtxmath}
+
+% Titles
+\RequirePackage{titlesec}
+
+\newcommand\chaptithuge{\fontsize{32}{40}\selectfont}
+\titleformat{\chapter}[display]{\bfseries}{}{0pt}{\chaptithuge\MakeUppercase}
+\titleformat{\section}{\bfseries}{}{0pt}{\Large\MakeUppercase}
+\titleformat{\subsection}{\bfseries}{}{0pt}{\large}
+\titleformat{\paragraph}{\bfseries}{{}}{0pt}{{}}
+\newcommand\fakeparagraph[1]{\vspace{1em}\noindent\textbf{#1}}
+
+\renewcommand{\chaptermark}[1]{\markright{\MakeUppercase{#1}}{}}
+
+% Page format
+\PassOptionsToPackage{a4paper}{geometry}
+\RequirePackage{geometry}
+\RequirePackage{enumitem}
+
+\geometry{
+  left=2.25cm,
+  right=2.25cm,
+  bottom=3.5cm,
+  top=3.5cm,
+  footskip=1.75cm,
+  headsep=1.5cm,
+}
+\setlength{\columnsep}{1.1cm}
+\setlist{leftmargin=1em}
