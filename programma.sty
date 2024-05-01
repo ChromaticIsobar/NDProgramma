@@ -1,11 +1,14 @@
 \ProvidesPackage{programma}[2024/04/30]
 
+\RequirePackage{etoolbox}
+\RequirePackage{graphicx}
+
 % ACM-like fonts
 % https://tex.stackexchange.com/a/540068
 \PassOptionsToPackage{T1}{fontenc}
-\PassOptionsToPackage{tt=false, type1=true}{libertine}
-\PassOptionsToPackage{varqu}{zi4}
-\PassOptionsToPackage{libertine}{newtxmath}
+% \PassOptionsToPackage{tt=false, type1=true}{libertine}
+% \PassOptionsToPackage{varqu}{zi4}
+% \PassOptionsToPackage{libertine}{newtxmath}
 
 \RequirePackage{fontenc}
 % \RequirePackage{libertine}
@@ -24,8 +27,6 @@
 \titleformat{\paragraph}{\bfseries}{{}}{0pt}{{}}
 \newcommand\fakeparagraph[2][\vspace{1em}]{#1\relax\noindent\textbf{#2}}
 
-\renewcommand{\chaptermark}[1]{\markright{\MakeUppercase{#1}}{}}
-
 % Page format
 \PassOptionsToPackage{a4paper}{geometry}
 \RequirePackage{geometry}
@@ -34,13 +35,43 @@
 \geometry{
   left=2.25cm,
   right=2.25cm,
-  bottom=3.5cm,
+  bottom=4.25cm,
   top=3.5cm,
-  footskip=1.75cm,
-  headsep=1.5cm,
+  footskip=2.5cm,
+  headsep=1cm,
 }
 \setlength{\columnsep}{1.1cm}
 \setlist{leftmargin=1em}
+
+% Headers and footers
+\newcommand\theplace\relax
+\newcommand\place[1]{\renewcommand\theplace{#1}}
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\thepage\hspace{0.5cm}\MakeUppercase\leftmark}
+% \fancyhead[RO]{\MakeUppercase\rightmark\hspace{0.5cm}\thepage}
+\fancyhead[RO]{\MakeUppercase\theplace\hspace{0.5cm}\thepage}
+\fancyhead[LO]{\MakeUppercase{\@title{} \the\year{}}}
+\fancyhead[RE]{\MakeUppercase{\@author{} Sindaco}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+\newlength\logoheight
+\setlength{\logoheight}{1.5cm}
+\newlength\logosep
+\setlength{\logosep}{0.25cm}
+\newcommand\theleftfooterlogo\relax
+\newcommand\therightfooterlogo\relax
+\newcommand\includelogo[1]{\includegraphics[height=\logoheight]{#1}}
+\newcommand\footerlogo[1]{%
+\apptocmd\theleftfooterlogo{\includelogo{#1}}{}{}%
+\pretocmd\therightfooterlogo{\includelogo{#1}}{}{}}
+\newcommand\footerspace[1][\logosep]{%
+\apptocmd\theleftfooterlogo{\hspace{#1}}{}{}%
+\pretocmd\therightfooterlogo{\hspace{#1}}{}{}}
+\fancyfoot[LE]{\theleftfooterlogo}
+\fancyfoot[RO]{\therightfooterlogo}
 
 % Colored Boxes
 \PassOptionsToPackage{many}{tcolorbox}

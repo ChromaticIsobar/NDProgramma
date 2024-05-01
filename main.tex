@@ -1,19 +1,32 @@
-\documentclass[oneside,twocolumn,10pt]{book}
+\documentclass[twoside,openright,twocolumn,10pt]{book}
 \usepackage[italian]{babel}
 \usepackage{programma}
 \usepackage{bookmark}
+\usepackage{calc}
 
 \hypersetup{hidelinks}
 
 \title{Programma Elettorale}
 \author{Renato Mora}
-\date{\today}
+\place{Dalmine}
+\year=2024
+
+\footerlogo{img/ndlogo}
+\footerspace
+\footerlogo{img/pdlogo}
+\footerspace
+\footerlogo{img/splogo}
+
+\fancyfoot[LE,RO]{}
+\fancyfoot[CE]{\theleftfooterlogo}
+\fancyfoot[CO]{\therightfooterlogo}
+
+\setlength\logosep{\logoheight}
 
 \begin{document}
 
 % \maketitle
 % \tableofcontents
-
 \input{tex/solidale}
 
 \end{document}
