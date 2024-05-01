@@ -60,7 +60,7 @@
 \newlength\logoheight
 \setlength{\logoheight}{1.5cm}
 \newlength\logosep
-\setlength{\logosep}{0.25cm}
+\setlength{\logosep}{\logoheight}
 \newcommand\theleftfooterlogo\relax
 \newcommand\therightfooterlogo\relax
 \newcommand\includelogo[1]{\includegraphics[height=\logoheight]{#1}}
@@ -70,8 +70,8 @@
 \newcommand\footerspace[1][\logosep]{%
 \apptocmd\theleftfooterlogo{\hspace{#1}}{}{}%
 \pretocmd\therightfooterlogo{\hspace{#1}}{}{}}
-\fancyfoot[LE]{\theleftfooterlogo}
-\fancyfoot[RO]{\therightfooterlogo}
+\fancyfoot[CE]{\theleftfooterlogo}
+\fancyfoot[CO]{\therightfooterlogo}
 
 % Colored Boxes
 \PassOptionsToPackage{many}{tcolorbox}
