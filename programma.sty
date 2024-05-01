@@ -8,9 +8,11 @@
 \PassOptionsToPackage{libertine}{newtxmath}
 
 \RequirePackage{fontenc}
-\RequirePackage{libertine}
-\RequirePackage{zi4}
-\RequirePackage{newtxmath}
+% \RequirePackage{libertine}
+% \RequirePackage{zi4}
+% \RequirePackage{newtxmath}
+\usepackage{tgadventor}
+\renewcommand{\familydefault}{\sfdefault}
 
 % Titles
 \RequirePackage{titlesec}
@@ -20,7 +22,7 @@
 \titleformat{\section}{\bfseries}{}{0pt}{\Large\MakeUppercase}
 \titleformat{\subsection}{\bfseries}{}{0pt}{\large}
 \titleformat{\paragraph}{\bfseries}{{}}{0pt}{{}}
-\newcommand\fakeparagraph[1]{\vspace{1em}\noindent\textbf{#1}}
+\newcommand\fakeparagraph[2][\vspace{1em}]{#1\relax\noindent\textbf{#2}}
 
 \renewcommand{\chaptermark}[1]{\markright{\MakeUppercase{#1}}{}}
 
@@ -39,3 +41,23 @@
 }
 \setlength{\columnsep}{1.1cm}
 \setlist{leftmargin=1em}
+
+% Colored Boxes
+\PassOptionsToPackage{many}{tcolorbox}
+\RequirePackage{tcolorbox}
+\RequirePackage{xcolor}
+
+\definecolor{ndblue}{HTML}{95c3cf}
+% \definecolor{ndred}{HTML}{cf9595}
+\definecolor{ndred}{HTML}{a70303}
+\definecolor{ndgreen}{HTML}{027903}
+\definecolor{ndyellow}{HTML}{fbe516}
+
+\definecolor{pdgreen}{HTML}{369831}
+\definecolor{pdred}{HTML}{e20612}
+
+\newtcolorbox{bluebox}{colback=ndblue!35!white,colframe=ndblue!5!white,breakable}
+\newtcolorbox{redbox}{colback=ndred!35!white,colframe=ndred!5!white,breakable}
+\newtcolorbox{greenbox}{colback=ndgreen!35!white,colframe=ndgreen!5!white,breakable}
+\newtcolorbox{yellowbox}{colback=ndyellow!35!white,colframe=ndyellow!5!white,breakable}
+\newtcolorbox{pdbox}{enhanced,borderline={3pt}{0pt}{pdred},borderline={2pt}{0pt}{white},borderline={1pt}{0pt}{pdgreen},colback=white,breakable}
