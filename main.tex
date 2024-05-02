@@ -1,6 +1,7 @@
 \documentclass[twoside,openright,twocolumn,10pt]{book}
 \usepackage[italian]{babel}
 \usepackage{programma}
+\usepackage{afterpage}
 \usepackage{bookmark}
 
 \hypersetup{hidelinks}
@@ -21,8 +22,15 @@
 
 \begin{document}
 
+\pagenumbering{gobble}
+\input{tex/candidati}
+\afterpage{\thispagestyle{empty}}
+\cleardoublepage
+
 % \maketitle
 % \tableofcontents
+
+\pagenumbering{arabic}
 \input{tex/solidale}
 \input{tex/sicurezza}
 \input{tex/viva}

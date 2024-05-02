@@ -1,0 +1,39 @@
+% !TeX root = ../main.tex
+\onecolumn
+\thispagestyle{empty}
+\begin{center}\chaptithuge\bfseries
+  I CANDIDATI CONSIGLIERI
+\end{center}
+\phantomsection
+\addcontentsline{toc}{chapter}{I Candidati Consiglieri}
+% \setlength{\tabcolsep}{0.05\textwidth}
+\newcounter{ndcandidati}
+\newcounter{spcandidati}
+\newcounter{pdcandidati}
+\setcounter{ndcandidati}{0}
+\setcounter{spcandidati}{0}
+\setcounter{pdcandidati}{0}
+\newcommand\candidato[3][. ]{%
+  \stepcounter{#2}%
+  \csname the#2\endcsname\relax#1\relax#3%
+}
+\newcommand\ndcandidato[1]{\candidato{ndcandidati}{#1}}
+\newcommand\spcandidato[1]{\candidato{spcandidati}{#1}}
+\newcommand\pdcandidato[1]{\candidato{pdcandidati}{#1}}
+\begin{center}\Large
+  \begin{tabular}{ccc}
+    \ndcandidato{Tiraboschi Fabio}
+    &
+    \pdcandidato{Rodeschini Marta}
+    &
+    \spcandidato{Alfonsi Paola}
+    \\
+    \includegraphics[width=0.2\textwidth]{img/ndlogo}
+    &
+    \includegraphics[width=0.2\textwidth]{img/pdlogo}
+    &
+    \includegraphics[width=0.2\textwidth]{img/splogo}
+  \end{tabular}
+\end{center}
+% \setlength{\tabcolsep}{6pt}
+\twocolumn
