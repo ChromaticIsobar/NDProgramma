@@ -2,8 +2,8 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="299.10614pt"
-   height="299.10614pt"
+   width="302pt"
+   height="302pt"
    id="svg3031"
    version="1.1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -38,10 +38,10 @@
     </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 187.25263 : 1"
+       inkscape:vp_x="0 : 191.11111 : 1"
        inkscape:vp_y="0 : 1137.7778 : 0"
-       inkscape:vp_z="487.82222 : 187.25263 : 1"
-       inkscape:persp3d-origin="243.91111 : 106.66003 : 1"
+       inkscape:vp_z="487.82222 : 191.11111 : 1"
+       inkscape:persp3d-origin="243.91111 : 110.51851 : 1"
        id="perspective3095" />
     <radialGradient
        inkscape:collect="always"
@@ -61,9 +61,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.980547"
-     inkscape:cx="117.7914"
-     inkscape:cy="261.58868"
+     inkscape:zoom="0.7395237"
+     inkscape:cx="91.951076"
+     inkscape:cy="296.81266"
      inkscape:document-units="pt"
      inkscape:current-layer="layer1"
      id="namedview3035"
@@ -73,19 +73,19 @@
      units="pt"
      objecttolerance="10"
      guidetolerance="10"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="1592"
-     inkscape:window-y="-8"
+     inkscape:window-width="1600"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="133"
      inkscape:window-maximized="1"
      gridtolerance="10"
      inkscape:snap-from-guide="false"
-     inkscape:showpageshadow="0"
-     inkscape:pagecheckerboard="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        orientation="-0.23325838,0.97241479"
-       position="359.60184,241.84506"
+       position="334.64222,253.05275"
        id="guide3799"
        inkscape:locked="false" />
   </sodipodi:namedview>
@@ -105,121 +105,125 @@
      id="layer4"
      inkscape:label="sfondo"
      style="display:inline"
-     transform="translate(-11.313708,-14.170978)" />
+     transform="translate(-36.273333,-25.378667)" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(-11.313708,-14.170978)">
-    <circle
-       style="display:inline;fill:#34495e;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="path3010"
-       transform="matrix(1.0444444,0,0,1.0444444,-18.227641,-19.093164)"
-       cx="219.20309"
-       cy="222.76747"
-       r="190.91882" />
-    <circle
-       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.04444"
-       id="circle1"
-       cx="210.7178"
-       cy="213.57507"
-       r="194.3049" />
+     transform="translate(-36.273333,-25.378667)">
     <path
-       style="display:inline;fill:#000000"
+       id="path3010"
+       style="display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.875692;stroke-dasharray:none"
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="0"
+       inkscape:original="M 219.20312 31.849609 A 190.91882 190.91882 0 0 0 28.285156 222.76758 A 190.91882 190.91882 0 0 0 219.20312 413.68555 A 190.91882 190.91882 0 0 0 410.12109 222.76758 A 190.91882 190.91882 0 0 0 219.20312 31.849609 z "
+       d="M 219.20312,31.849609 A 190.91882,190.91882 0 0 0 28.285156,222.76758 190.91882,190.91882 0 0 0 219.20312,413.68555 190.91882,190.91882 0 0 0 410.12109,222.76758 190.91882,190.91882 0 0 0 219.20312,31.849609 Z"
+       transform="matrix(1.0545511,0.00256835,-0.00251796,1.054551,7.0066826,-8.7707658)"
+       inkscape:label="CircleBlack" />
+    <path
+       id="path3010-7"
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999574;stroke-dasharray:none"
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="0"
+       inkscape:original="M 219.20312 31.849609 A 190.91882 190.91882 0 0 0 28.285156 222.76758 A 190.91882 190.91882 0 0 0 219.20312 413.68555 A 190.91882 190.91882 0 0 0 410.12109 222.76758 A 190.91882 190.91882 0 0 0 219.20312 31.849609 z "
+       d="M 219.20312,31.849609 A 190.91882,190.91882 0 0 0 28.285156,222.76758 190.91882,190.91882 0 0 0 219.20312,413.68555 190.91882,190.91882 0 0 0 410.12109,222.76758 190.91882,190.91882 0 0 0 219.20312,31.849609 Z"
+       transform="matrix(1.0440784,0,0,1.0440784,8.7780407,-6.1269875)"
+       inkscape:label="CircleWhite" />
+    <path
+       style="fill:#000000"
        d=""
        id="path3089"
        inkscape:connector-curvature="0" />
     <path
-       style="display:inline;fill:#000000"
+       style="fill:#000000"
        d=""
        id="path3087"
        inkscape:connector-curvature="0" />
     <path
-       style="display:inline;fill:#000000"
+       style="fill:#000000"
        d=""
        id="path3788"
        inkscape:connector-curvature="0" />
-    <g
-       id="g1">
-      <flowRoot
-         xml:space="preserve"
-         id="flowRoot3128"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
-           id="flowRegion3130"><rect
-             id="rect3132"
-             width="158.21515"
-             height="66.29126"
-             x="128.1631"
-             y="280.927" /></flowRegion><flowPara
-           id="flowPara3134"
-           style="font-size:10px;line-height:1.25"> </flowPara></flowRoot>
-      <flowRoot
-         xml:space="preserve"
-         id="flowRoot3762"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
-           id="flowRegion3764"><rect
-             id="rect3766"
-             width="159.98291"
-             height="124.62758"
-             x="117.55651"
-             y="179.28038" /></flowRegion><flowPara
-           id="flowPara3768"
-           style="font-size:28px;line-height:1.25"> </flowPara></flowRoot>
-      <path
-         style="display:inline;fill:#457a89;fill-opacity:1;stroke:none"
-         d="M 120.54385,361.7221 162.29657,337.23799 124.252,296.31651"
-         id="path3805"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccc" />
-      <path
-         style="display:inline;fill:#95c3cf;fill-opacity:1;stroke:none"
-         d="M 65.231869,264.72209 370.27319,192.08868 114.42306,302.03576 Z"
-         id="path3929-1"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
-      <path
-         style="display:inline;fill:#559fb3;fill-opacity:1;stroke:none"
-         d="M 120.66969,362.08148 114.11762,302.13582 370.24222,192.10379 137.53393,318.74912 Z"
-         id="path3937-9"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         sodipodi:nodetypes="cccc"
-         style="display:inline;fill:#95c3cf;fill-opacity:1;stroke:none"
-         d="M 137.55955,318.70019 212.71362,382.34632 370.25811,192.0969 Z"
-         id="path3945-9"
-         inkscape:connector-curvature="0" />
-      <path
-         style="display:inline;fill:none;stroke:#456880;stroke-width:2.17072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 65.220613,264.75411 48.618517,37.69585 6.62755,58.83845 39.68356,-22.08751 52.97589,43.14649"
-         id="path3828"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#34495e;fill-opacity:1;stroke:none;stroke-width:1.38;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="4.980289"
-         y="198.80486"
-         id="text3136"
-         transform="rotate(-13.523559)"><tspan
-           sodipodi:role="line"
-           id="tspan3138"
-           x="4.980289"
-           y="198.80486"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:78.3107px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Italic';fill:#34495e;fill-opacity:1;stroke:none;stroke-width:1.38;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">NOSTRA</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#34495e;fill-opacity:1;stroke:#34495e;stroke-width:2.555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="-9.2721357"
-         y="264.60165"
-         id="text3140"
-         transform="rotate(-13.523559)"><tspan
-           sodipodi:role="line"
-           id="tspan3142"
-           x="-9.2721357"
-           y="264.60165"
-           style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:78.3107px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Italic';fill:#34495e;fill-opacity:1;stroke:#34495e;stroke-width:2.555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DALMINE</tspan></text>
-    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3128"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(20.396779,9.1785503)"><flowRegion
+         id="flowRegion3130"><rect
+           id="rect3132"
+           width="158.21515"
+           height="66.29126"
+           x="128.1631"
+           y="280.927" /></flowRegion><flowPara
+         id="flowPara3134"
+         style="font-size:10px;line-height:1.25"> </flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3762"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(20.396779,9.1785503)"><flowRegion
+         id="flowRegion3764"><rect
+           id="rect3766"
+           width="159.98291"
+           height="124.62758"
+           x="117.55651"
+           y="179.28038" /></flowRegion><flowPara
+         id="flowPara3768"
+         style="font-size:28px;line-height:1.25"> </flowPara></flowRoot>
+    <path
+       style="display:inline;fill:#457a89;fill-opacity:1;stroke:none"
+       d="m 140.94063,370.90065 41.75272,-24.48411 -38.04457,-40.92148"
+       id="path3805"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="display:inline;fill:#95c3cf;fill-opacity:1;stroke:none"
+       d="M 85.628648,273.90064 390.66997,201.26723 134.81984,311.21431 Z"
+       id="path3929-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;fill:#559fb3;fill-opacity:1;stroke:none"
+       d="M 141.06647,371.26003 134.5144,311.31437 390.639,201.28234 157.93071,327.92767 Z"
+       id="path3937-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       style="display:inline;fill:#95c3cf;fill-opacity:1;stroke:none"
+       d="M 157.95633,327.87874 233.1104,391.52487 390.65489,201.27545 Z"
+       id="path3945-9"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#456880;stroke-width:2.17072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 85.617392,273.93266 48.618518,37.69585 6.62755,58.83845 39.68356,-22.08751 52.97589,43.14649"
+       id="path3828"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;fill:#34495e;fill-opacity:1;stroke:none;stroke-width:1.38;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="27.563448"
+       y="217.7908"
+       id="text3136"
+       transform="rotate(-13.523559)"><tspan
+         sodipodi:role="line"
+         id="tspan3138"
+         x="27.563448"
+         y="217.7908"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:78.3107px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Italic';fill:#34495e;fill-opacity:1;stroke:none;stroke-width:1.38;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">NOSTRA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans';letter-spacing:0px;word-spacing:0px;fill:#34495e;fill-opacity:1;stroke:#34495e;stroke-width:2.555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="18.135496"
+       y="280.63382"
+       id="text3140"
+       transform="rotate(-13.523559)"><tspan
+         sodipodi:role="line"
+         id="tspan3142"
+         x="18.135496"
+         y="280.63382"
+         style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:78.3107px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Italic';fill:#34495e;fill-opacity:1;stroke:#34495e;stroke-width:2.555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DALMINE</tspan></text>
   </g>
 </svg>
