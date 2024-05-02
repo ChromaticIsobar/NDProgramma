@@ -6,33 +6,137 @@
 \end{center}
 \phantomsection
 \addcontentsline{toc}{chapter}{I Candidati Consiglieri}
-% \setlength{\tabcolsep}{0.05\textwidth}
-\newcounter{ndcandidati}
-\newcounter{spcandidati}
-\newcounter{pdcandidati}
-\setcounter{ndcandidati}{0}
-\setcounter{spcandidati}{0}
-\setcounter{pdcandidati}{0}
-\newcommand\candidato[3][. ]{%
-  \stepcounter{#2}%
-  \csname the#2\endcsname\relax#1\relax#3%
-}
-\newcommand\ndcandidato[1]{\candidato{ndcandidati}{#1}}
-\newcommand\spcandidato[1]{\candidato{spcandidati}{#1}}
-\newcommand\pdcandidato[1]{\candidato{pdcandidati}{#1}}
-\begin{center}\Large
+% \setlength{\tabcolsep}{18pt}
+\newlength\constabsep
+\setlength\constabsep{18pt}
+\vfill{}
+\begin{center}
   \begin{tabular}{ccc}
-    \ndcandidato{Tiraboschi Fabio}
+    % 1
+    Tiraboschi Fabio
     &
-    \pdcandidato{Rodeschini Marta}
+    Rodeschini Marta
     &
-    \spcandidato{Alfonsi Paola}
-    \\
+    Alfonsi Paola
+    \\\\
+    % 2
+    Angioli Silvia Elena
+    &
+    Carboni Nicolò
+    &
+    Arnoldi Irene
+    \\\\
+    % 3
+    Benedetti Davide
+    &
+    Caldarone Francesco
+    &
+    Bertato Vincenzo
+    \\\\
+    % 4
+    Bettazzoli Sergio
+    &
+    Appolonia Maria Rosa
+    &
+    Bertulessi Francesca
+    \\\\
+    % 5
+    Buonocore Mattia
+    &
+    Accetta Fabio
+    &
+    Caregnato Massimo
+    \\\\
+    % 6
+    Colombo Luca
+    &
+    Avogadri Goutami
+    &
+    Corvo Filippo Fabrizio
+    \\\\
+    % 7
+    De Amici Anna
+    &
+    Bozzano Paolo
+    &
+    Cortese Valerio
+    \\\\
+    % 8
+    Invernizzi Irene
+    &
+    Borleri Capellini Elisabetta
+    &
+    Lodetti Michele
+    \\\\
+    % 9
+    Laisa Andrea
+    &
+    Distefano Enrico
+    &
+    Maffioletti Renata
+    \\\\
+    % 10
+    Longhi Serena
+    &
+    Colombi Stefania
+    &
+    Moroni Enrico
+    \\\\
+    % 11
+    Melocchi Alice
+    &
+    Gavazzi Luigi
+    &
+    Paganelli Lorena
+    \\\\
+    % 12
+    Pinotti Roberto
+    &
+    Lucchetti Valentina
+    &
+    Perico Fabiana
+    \\\\
+    % 13
+    Poma Francesco
+    &
+    Longaretti Massimo
+    &
+    Pontillo Stefano
+    \\\\
+    % 14
+    Rubini Massimiliano
+    &
+    Mazzoleni Marzia
+    &
+    Steffenoni Grandi Manuel
+    \\\\
+    % 15
+    Sementilli Anna
+    &
+    Morotti Francesca
+    &
+    
+    \\\\
+    % 16
+    Tiraboschi Marco
+    &
+    Tengattini Chiara
+    &
+    
+    \\\\
+    \\\\
+    \\\\
+    \hspace{\constabsep}
     \includegraphics[width=0.2\textwidth]{img/ndlogo}
+    \hspace{\constabsep}
     &
+    \hspace{\constabsep}
     \includegraphics[width=0.2\textwidth]{img/pdlogo}
+    \hspace{\constabsep}
     &
+    \hspace{\constabsep}
     \includegraphics[width=0.2\textwidth]{img/splogo}
+    \hspace{\constabsep}
   \end{tabular}
 \end{center}
 % \setlength{\tabcolsep}{6pt}
