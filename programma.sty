@@ -40,6 +40,7 @@
   footskip=2.5cm,
   headsep=1cm,
 }
+\savegeometry{theprogrammageometry}
 \setlength{\columnsep}{1.1cm}
 \setlist{leftmargin=1em}
 
@@ -92,3 +93,20 @@
 \newtcolorbox{greenbox}{colback=ndgreen!35!white,colframe=ndgreen!5!white,breakable}
 \newtcolorbox{yellowbox}{colback=ndyellow!35!white,colframe=ndyellow!5!white,breakable}
 \newtcolorbox{pdbox}{enhanced,borderline={3pt}{0pt}{pdred},borderline={2pt}{0pt}{white},borderline={1pt}{0pt}{pdgreen},colback=white,breakable}
+
+% Cover page
+\RequirePackage{pdfpages}
+\newcommand\includethecoverimage\relax
+\newcommand\coverimage[2][fitpaper=true]{\renewcommand\includethecoverimage{\null
+\includepdf[#1]{#2}}}
+\newcommand\makecoverimage{%
+  \pagenumbering{gobble}%
+  \pagestyle{empty}%
+  \includethecoverimage\relax%
+  \cleardoublepage\relax%
+  % \restoregeometry\relax%
+  \pagestyle{fancy}%
+  \pagenumbering{arabic}%
+}
+
+\AddToHook{begindocument/end}{\makecoverimage\relax}
