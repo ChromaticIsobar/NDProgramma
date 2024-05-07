@@ -1,4 +1,4 @@
-\documentclass[twoside,openright,twocolumn,10pt]{book}
+\documentclass[twoside,twocolumn,10pt]{book}
 \usepackage[italian]{babel}
 \usepackage{programma}
 \usepackage{afterpage}
@@ -18,17 +18,22 @@
 \footerlogo{img/splogo}
 
 % <!> Deve essere pdf <!>
-\coverimage{img/cover}
+% \coverimage{img/cover2}
+\coverimage[width=21cm,fitpaper=true]{img/Manifesto A5}
+
+% Footer tutti uguali
+\fancyfoot[CO]{\theleftfooterlogo}
 
 \begin{document}
 
 \pagenumbering{gobble}
 \input{tex/candidati}
 \afterpage{\thispagestyle{empty}}
-\cleardoublepage
+\clearpage
 
 % \maketitle
 % \tableofcontents
+\let\cleardoublepage\clearpage
 
 \pagenumbering{arabic}
 \input{tex/solidale}
